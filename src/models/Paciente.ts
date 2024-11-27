@@ -10,13 +10,14 @@ export interface PacienteInstance extends Model {
     data_nascimento: number,
     telefone: number,
     email: string,
-    tel_residencial: number,
-    tel_emergencia: number
+    telefone_emergencia: number
+    telefone_residencial: number,
+
     
 
 }
 //ensinando o sequelize sobre as infos do nosso banco
-export const Paciente = sequelize.define<PacienteInstance>("podologia,",{
+export const Paciente = sequelize.define<PacienteInstance>("Paciente,",{
 
     id:{
         primaryKey: true,
@@ -32,7 +33,7 @@ export const Paciente = sequelize.define<PacienteInstance>("podologia,",{
         type:DataTypes.STRING
     },
     data_nascimento:{
-        type:DataTypes.INTEGER
+        type:DataTypes.NUMBER
     },
     telefone:{
         type:DataTypes.INTEGER

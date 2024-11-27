@@ -1,0 +1,123 @@
+<!-- Dados Clínicos -->
+    <div class="tab-pane fade" id="pills-content3" role="tabpanel" aria-labelledby="pills-tab3">
+        <form class="row g-3">
+            <div class="col-md-4">
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="gestante" id="gestante">
+                    <label class="form-check-label" for="gestante">Gestante</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="osteoporose" id="osteoporose">
+                    <label class="form-check-label" for="osteoporose">Osteoporose</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="cardiopatia" id="cardiopatia">
+                    <label class="form-check-label" for="cardiopatia">Cardiopatia</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="marca_passo" id="marca_passo">
+                    <label class="form-check-label" for="marca_passo">Marca Passo</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="hipertiroidismo" id="hipertiroidismo">
+                    <label class="form-check-label" for="hipertiroidismo">Hipertiroidismo</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="hipotiroidismo" id="hipotiroidismo">
+                    <label class="form-check-label" for="hipotiroidismo">Hipotiroidismo</label>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="hipertensao" id="hipertensao">
+                    <label class="form-check-label" for="hipertensao">Hipertensão</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="hipotensao" id="hipotensao">
+                    <label class="form-check-label" for="hipotensao">Hipotensão</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="renal" id="renal">
+                    <label class="form-check-label" for="renal">Renal</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="neuropatia" id="neuropatia">
+                    <label class="form-check-label" for="neuropatia">Neuropatia</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="reumatismo" id="reumatismo">
+                    <label class="form-check-label" for="reumatismo">Reumatismo</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="alt_compromentimento" id="alt_comprometimento">
+                    <label class="form-check-label" for="alt_comprometimento">Alteração ou Comprometimento
+                        Vasculares</label>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="epilepsia" id="epilepsia">
+                    <label class="form-check-label" for="epilepsia">Epilepsia</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="hepatite" id="hepatite">
+                    <label class="form-check-label" for="hepatite">Hepatite</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="hanseniase" id="hanseniase">
+                    <label class="form-check-label" for="hanseniase">Hanseniase</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="quimioterapia" id="quimioterapia">
+                    <label class="form-check-label" for="quimioterapia">Quimioterapia / Radioterapia</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="antecedentes" id="antecedentes">
+                    <label class="form-check-label" for="antecedentes">Antecedentes Oncológicos</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="clinicos[]" value="cirurgia_mmii" id="cirurgia_mmii">
+                    <label class="form-check-label" for="cirurgia_mmii">Cirurgia MMII</label>
+                </div>
+            </div>
+        </form>
+        <div class="col-md-6">
+            <label for="diabetes" class="form-label">Diabetes:</label>
+            <select class="form-select" id="diabetes">
+                <option selected>Escolha...</option>
+                <option>Sim</option>
+                <option>Não</option>
+            </select>
+            <label for="taxa_glicemica" class="form-label">Taxa Glicêmica:</label>
+            <input type="text" class="form-control" id="taxa_glicemica" placeholder="Digite taxa a glicêmica">
+            <label for="data-ultima" class="form-label">Data da última verificação:</label>
+            <input type="date" class="form-control" id="data-ultima">
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label for="insulina" class="form-label">Insulina:</label>
+            <select class="form-select" id="insulina">
+                <option selected>Escolha...</option>
+                <option>Sim</option>
+                <option>Não</option>
+                <option>Injetável</option>
+                <option>Via Oral</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label for="dieta_hidrica" class="form-label">Dieta Hídrica:</label>
+            <select class="form-select" id="dieta_hidrica">
+                <option selected>Escolha...</option>
+                <option>Sim</option>
+                <option>Não</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label for="dieta_alimentar" class="form-label">Dieta alimentar:</label>
+            <select class="form-select" id="dieta_alimentar">
+                <option selected>Escolha...</option>
+                <option>Sim</option>
+                <option>Não</option>
+            </select>
+        </div>
+    </div>

@@ -1,0 +1,155 @@
+<!-- Dados Gerais -->
+    <div class="tab-pane fade" id="pills-content2" role="tabpanel" aria-labelledby="pills-tab2">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="queixa" class="form-label">Queixa Principal</label>
+                {{queixa}}
+            </div>
+            <div class="col-md-6">
+                <label for="frequencia" class="form-label">Frequência no Podólogo</label>
+                <select class="form-select" id="frequencia">
+                    <option selected>Escolha...</option>
+                    <option>Semanal</option>
+                    <option>Mensal</option>
+                    <option>Semestral</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="medicamento" class="form-label">Faz uso de algum medicamento?</label>
+                <select class="form-select" id="medicamento">
+                    <option selected>Escolha...</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="qual" class="form-label">Caso sim qual?</label>
+                {{qual}}
+            </div>
+            <div class="col-md-6">
+                <label for="alergico" class="form-label">Alérgico algum medicamento?</label>
+                <select class="form-select" id="alergico">
+                    <option selected>Escolha...</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="substancia" class="form-label">Quais substâncias?</label>
+                {{substancia}}
+            </div>
+            <div class="col-md-6">
+                <label for="trabalho" class="form-label">Posição de trabalho:</label>
+                <select class="form-select" id="trabalho">
+                    <option selected>Escolha...</option>
+                    <option>Em Pé</option>
+                    <option>Sentado</option>
+                    <option>Andando</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="duracao" class="form-label">Duração em horas:</label>
+               {{duracao}}
+            </div>
+            <div class="col-md-6">
+                <label for="maior_parte" class="form-label">Passa maior parte do tempo:</label>
+                <select class="form-select" id="maior_parte">
+                    <option selected>Escolha...</option>
+                    <option>Em Pé</option>
+                    <option>Sentado</option>
+                    <option>Caminhando</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="calcado" class="form-label">Número do calçado:</label>
+              {{calcado}}
+            </div>
+            <div class="col-md-6">
+                <label for="tipo_calcado" class="form-label">Tipo calçado diário:</label>
+                <select class="form-select" id="tipo_calcado">
+                    <option selected>Escolha...</option>
+                    <option>Bota</option>
+                    <option>Coturno</option>
+                    <option>Chinelo</option>
+                    <option>Sapatênis</option>
+                    <option>Sapato</option>
+                    <option>Sandalia</option>
+                    <option>Salto</option>
+                    <option>Sapatilha</option>
+                    <option>Tênis</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="palmilha" class="form-label">Faz uso de palmilha?</label>
+                <select class="form-select" id="palmilha">
+                    <option selected>Escolha...</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+                <label for="tipo_palmilha" class="form-label">Se sim qual?</label>
+                <select class="form-select" id="tipo_palmilha">
+                    <option selected>Escolha...</option>
+                    <option>Ortopédica</option>
+                    <option>Descanso</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="fumante" class="form-label">É Fumante ?</label>
+                <select class="form-select" id="fumante">
+                    <option selected>Escolha...</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="ciclo_menstrual" class="form-label">Ciclo Menstrual Regular?</label>
+                <select class="form-select" id="ciclo_menstrual">
+                    <option selected>Escolha...</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+                <div class="col-md-6">
+                    <label for="dum" class="form-label">DUM:</label>
+                    {{dum}}
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="caso_gestantegestante" class="form-label">Está gestante?</label>
+                <select class="form-select" id="caso_gestante">
+                    <option selected>Escolha...</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="amamentando" class="form-label">Está amamentando?</label>
+                <select class="form-select" id="amamentando">
+                    <option selected>Escolha...</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="at_fisica" class="form-label">Pratica atividade física?</label>
+                <select class="form-select" id="at_fisica">
+                    <option selected>Escolha...</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="frequencia_at" class="form-label">Frequência?</label>
+                <select class="form-select" id="frequencia_at">
+                    <option selected>Escolha...</option>
+                    <option>Diário</option>
+                    <option>As Vezes</option>
+                    <option>Nunca</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="esporte" class="form-label">Qual esporte e tipo de calçado?</label>
+                {{esporte}}
+                    placeholder="Digite esporte e tipo de calçado ">
+            </div>
+        </form>
+    </div>

@@ -1,0 +1,101 @@
+<!-- Alterações e Lesões dos Pés -->
+    <div class="tab-pane fade" id="pills-content4" role="tabpanel" aria-labelledby="pills-tab4">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="tipo-pisada" class="form-label">Tipo de Pisada</label>
+                <select class="form-select" id="tipo-pisada">
+                    <option selected>Escolha...</option>
+                    <option>Plano / Pronado</option>
+                    <option>Normal / Neutro</option>
+                    <option>Cavo / Supinado</option>
+                </select>
+                <div class="container mt-5">
+                    <img src="/images/pisada.jpg" class="img-fluid" alt="Imagem Responsiva">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="marcha" class="form-label">Tipo de Marcha</label>
+                <select class="form-select" id="marcha">
+                    <option selected>Escolha...</option>
+                    <option>Normal</option>
+                    <option>Patólogica</option>
+                    <input type="text" class="form-control" id="marcha" placeholder="Qual Patólogia?">
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="articulacao" class="form-label">Articulação:</label>
+                <select class="form-select" id="articulacao">
+                    <option selected>Escolha...</option>
+                    <option>Retropé</option>
+                    <option>Chopart</option>
+                    <option>Mediopé</option>
+                    <option>Lisfranc</option>
+                    <option>Antepé</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="sensibilidade" class="form-label">Sensibilidade a Dor</label>
+                <select class="form-select" id="sensibilidade">
+                    <option selected>Escolha...</option>
+                    <option>Diminuição</option>
+                    <option>Normal</option>
+                    <option>Aumentada</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="teste_dia" class="form-label">Teste de Diapazão:</label>
+                {{diapazao}}
+            </div>
+            <div class="col-md-6">
+                <label for="teste_mono" class="form-label">Teste de Monofilamento:</label>
+                {{monofilamento}}
+                    placeholder="Digite teste de Monofilamento">
+            </div>
+            <div class="col-md-6">
+                <label for="pulso" class="form-label">Pulso:</label>
+                {{pulso}}
+            </div>
+            <!-- Dedos  -->
+            <h5>Dedos</h5>
+            <div class="col-md-6">
+                <label for="flexivel" class="form-label">Flexível</label>
+                <select class="form-select" id="flexivel">
+                    <option selected>Escolha...</option>
+                    <option>Esquerdo</option>
+                    <option>Direito</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="rigido" class="form-label">Rigido</label>
+                <select class="form-select" id="rigido">
+                    <option selected>Escolha...</option>
+                    <option>Esquerdo</option>
+                    <option>Direito</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="espalmado" class="form-label">Espalmado</label>
+                <select class="form-select" id="espalmado">
+                    <option selected>Escolha...</option>
+                    <option>Esquerdo</option>
+                    <option>Direito</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="martelo" class="form-label">Martelo</label>
+                <select class="form-select" id="martelo">
+                    <option selected>Escolha...</option>
+                    <option>Esquerdo</option>
+                    <option>Direito</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="queda_meta" class="form-label">Queda de Metatarso</label>
+                <select class="form-select" id="queda_meta">
+                    <option selected>Escolha...</option>
+                    <option>Esquerdo</option>
+                    <option>Direito</option>
+                </select>
+            </div>
+        </form>
+    </div>
