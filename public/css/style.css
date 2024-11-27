@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+label {
+    display: block;
+    margin: 5px 0;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+.radio-group,
+.checkbox-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
